@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<form>
+    <fields addfieldpath="/administrator/components/com_fabrik/models/fields" name="params">
+
+        <fieldset name="plg-list-make-recursive-tree" label="COM_FABRIK_OPTIONS">
+
+            <field name="list_elemento_origem"
+                   type="fabrikmodalrepeat"
+                   icon="list"
+                   label="PLG_FABRIK_LIST_ELEMENTO_ORIGEM_LABEL"
+                   description="PLG_FABRIK_LIST_ELEMENTO_ORIGEM_DESC"
+            >
+                <fields name="params">
+                    <fieldset modal="true"
+                              name="list_elemento_origem_modal"
+                              repeat="false">
+                        <field name="elemento_origem"
+                               label="PLG_FABRIK_LIST_ELEMENTO_ORIGEM_LABEL"
+                               description="PLG_FABRIK_LIST_ELEMENTO_ORIGEM_DESC"
+                               size="30"
+                               type="listfields"
+                        />
+                    </fieldset>
+                </fields>
+            </field>
+
+            <field name="list_elemento_destino"
+                   type="fabrikmodalrepeat"
+                   icon="list"
+                   label="PLG_FABRIK_LIST_ELEMENTO_DESTINO_LABEL"
+                   description="PLG_FABRIK_LIST_ELEMENTO_DESTINO_DESC"
+            >
+                <fields name="params">
+                    <fieldset modal="true"
+                              name="list_elemento_destino_modal"
+                              repeat="false">
+                        <field name="elemento_destino"
+                               label="PLG_FABRIK_LIST_ELEMENTO_DESTINO_LABEL"
+                               description="PLG_FABRIK_LIST_ELEMENTO_DESTINO_DESC"
+                               size="30"
+                               type="listfields"
+                        />
+                    </fieldset>
+                </fields>
+            </field>
+
+        </fieldset>
+
+    </fields>
+</form>
